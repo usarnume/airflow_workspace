@@ -1,0 +1,58 @@
+[2023-10-02T12:51:54.582+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_world.build_stage_1 manual__2023-10-02T12:51:52.825120+00:00 [queued]>
+[2023-10-02T12:51:54.590+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_world.build_stage_1 manual__2023-10-02T12:51:52.825120+00:00 [queued]>
+[2023-10-02T12:51:54.590+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-10-02T12:51:54.608+0000] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): build_stage_1> on 2023-10-02 12:51:52.825120+00:00
+[2023-10-02T12:51:54.612+0000] {standard_task_runner.py:57} INFO - Started process 3678 to run task
+[2023-10-02T12:51:54.614+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'hello_world', 'build_stage_1', 'manual__2023-10-02T12:51:52.825120+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/dag_1.py', '--cfg-path', '/tmp/tmph2n8xll5']
+[2023-10-02T12:51:54.614+0000] {standard_task_runner.py:85} INFO - Job 20: Subtask build_stage_1
+[2023-10-02T12:51:54.651+0000] {task_command.py:410} INFO - Running <TaskInstance: hello_world.build_stage_1 manual__2023-10-02T12:51:52.825120+00:00 [running]> on host 00a598f19374
+[2023-10-02T12:51:54.697+0000] {abstractoperator.py:582} ERROR - Exception rendering Jinja template for task 'build_stage_1', field 'bash_command'. Template: 'echo {{ task_id }} is running in the {{ dag }} pipeline'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 574, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 156, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 539, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 113, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 288, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return "".join(nodes)
+  File "<template>", line 14, in root
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'task_id' is undefined
+[2023-10-02T12:51:54.698+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1430, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1554, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2202, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1254, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 574, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 156, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 539, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 113, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 288, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return "".join(nodes)
+  File "<template>", line 14, in root
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'task_id' is undefined
+[2023-10-02T12:51:54.704+0000] {taskinstance.py:1373} INFO - Marking task as FAILED. dag_id=hello_world, task_id=build_stage_1, execution_date=20231002T125152, start_date=20231002T125154, end_date=20231002T125154
+[2023-10-02T12:51:54.719+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 20 for task build_stage_1 ('task_id' is undefined; 3678)
+[2023-10-02T12:51:54.747+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-10-02T12:51:54.768+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,25 @@
+[2023-10-02T12:39:29.971+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_world.build_stage_1 scheduled__2023-09-20T00:00:00+00:00 [queued]>
+[2023-10-02T12:39:30.346+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_world.build_stage_1 scheduled__2023-09-20T00:00:00+00:00 [queued]>
+[2023-10-02T12:39:30.346+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-10-02T12:39:30.817+0000] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): build_stage_1> on 2023-09-20 00:00:00+00:00
+[2023-10-02T12:39:30.898+0000] {standard_task_runner.py:57} INFO - Started process 3422 to run task
+[2023-10-02T12:39:30.972+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'hello_world', 'build_stage_1', 'scheduled__2023-09-20T00:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/dag_1.py', '--cfg-path', '/tmp/tmpyaaul0ci']
+[2023-10-02T12:39:30.972+0000] {standard_task_runner.py:85} INFO - Job 6: Subtask build_stage_1
+[2023-10-02T12:39:31.835+0000] {task_command.py:410} INFO - Running <TaskInstance: hello_world.build_stage_1 scheduled__2023-09-20T00:00:00+00:00 [running]> on host 00a598f19374
+[2023-10-02T12:39:33.439+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hello_world' AIRFLOW_CTX_TASK_ID='build_stage_1' AIRFLOW_CTX_EXECUTION_DATE='2023-09-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-20T00:00:00+00:00'
+[2023-10-02T12:39:33.441+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-10-02T12:39:33.441+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo <Task(BashOperator): build_stage_1> is running in the <DAG: hello_world> pipeline']
+[2023-10-02T12:39:33.776+0000] {subprocess.py:86} INFO - Output:
+[2023-10-02T12:39:33.809+0000] {subprocess.py:93} INFO - /bin/bash: -c: line 1: syntax error near unexpected token `('
+[2023-10-02T12:39:33.809+0000] {subprocess.py:93} INFO - /bin/bash: -c: line 1: `echo <Task(BashOperator): build_stage_1> is running in the <DAG: hello_world> pipeline'
+[2023-10-02T12:39:33.810+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2023-10-02T12:39:33.914+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 211, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2023-10-02T12:39:34.025+0000] {taskinstance.py:1373} INFO - Marking task as FAILED. dag_id=hello_world, task_id=build_stage_1, execution_date=20230920T000000, start_date=20231002T123929, end_date=20231002T123933
+[2023-10-02T12:39:34.500+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 6 for task build_stage_1 (Bash command failed. The command returned a non-zero exit code 2.; 3422)
+[2023-10-02T12:39:34.759+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-10-02T12:39:35.502+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
