@@ -14,10 +14,14 @@ schedule="@daily",
     def _print_exec_date(**context):
         print(f"This script was executed at {context['execution_date']}")
 
+    def _print_run_date(**context):
+        print(f"This script run date when was supposed to run {context['ds']}")
+
+
     procure_rocket_material = EmptyOperator(task_id="procure_rocket_material", dag=dag)
     build_stage_1 = BashOperator(task_id="build_stage_1", bash_command="echo '{{ task }} is running in the {{ dag }} pipeline'", dag=dag)
     build_stage_2 = PythonOperator(task_id="build_stage_2", python_callable=_print_exec_date, provide_context=True, dag=dag)
-    build_stage_3 = EmptyOperator(task_id="build_stage_3", dag=dag)
+    build_stage_3 = PythonOperator(task_id="build_stage_3", python_callable=_print_run_date, provide_context=True, dag=dag)
     procure_fuel = EmptyOperator(task_id="procure_fuel", dag=dag)
     launch = EmptyOperator(task_id="launch", dag=dag)
 
