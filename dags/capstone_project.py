@@ -11,8 +11,8 @@ from airflow.exceptions import AirflowSkipException
 import pandas as pd
 from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateEmptyDatasetOperator
 from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesystemToGCSOperator
-
-
+from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+from airflow.providers.postgres.operators.postgres import PostgresOperator
 
 # https://airflow.apache.org/docs/apache-airflow/stable/templates-ref.html
 
@@ -64,10 +64,10 @@ schedule="@daily",
     def _extract_relevant_data(x: dict):
         return {"id": x.get("id"),
                 "name": x.get("name"),
-                "status.abbrev": x.get("status.abbrev"),
-                "mission.agencies.country_code": x.get("mission.agencies.country_code"),
-                "launch_service_provider.name": x.get("launch_service_provider.name"),
-                "launch_service_provider.type": x.get("launch_service_provider.type")}
+                "abbrev": x.get("status.abbrev"),
+                "country_code": x.get("pad").get("location").get("country_code"),
+                "name": x.get("launch_service_provider").get("name"),
+                "type": x.get("launch_service_provider").get("type")}
 
 
     def _preprocess_data(task_instance, **context):
@@ -98,9 +98,44 @@ schedule="@daily",
         gcp_conn_id='google_cloud_conn', # defined remote
     )
 
-    # definition of the dag
-    call_http_status >> call_space_devs_api >> check_results >> create_empty_dataset >> upload_file
+    # Step 6: write parquet to big query
+    gcs_to_big_query_operator = GCSToBigQueryOperator(
+        task_id="write_parquet_to_bq",
+        gcp_conn_id="google_cloud_conn",
+        bucket="aflow-training-rabo-2023-10-02",
+        source_objects=["maurits_dataset/{{ ds }}.parquet"],
+        source_format="parquet",
+        destination_project_dataset_table="aflow-training-rabo-2023-10-02.maurits_dataset.rocket_launches",
+        write_disposition="WRITE_APPEND"
+    )
 
+    # Step 7: create postgres table
+    # create_postgres_table = PostgresOperator(
+    #     task_id="create_postgres_table",
+    #     postgres_conn_id="postgres",
+    #     sql="""
+    #     CREATE TABLE IF NOT EXISTS rocket_launches (
+    #         id VARCHAR,
+    #         name VARCHAR,
+    #         status VARCHAR,
+    #         country_code VARCHAR,
+    #         service_provider_name: VARCHAR,
+    #         service_provider_type: VARCHAR
+    #         );
+    #     """
+    # )
+
+    # definition of the dag
+    (
+    call_http_status >> 
+    call_space_devs_api >> 
+    check_results >> 
+    preprocess_data >>
+    create_empty_dataset >> 
+    upload_file >> 
+    gcs_to_big_query_operator 
+    #create_postgres_table
+    )
 
 
     

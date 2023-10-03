@@ -1,0 +1,26 @@
+[2023-10-03T13:45:11.627+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: capstone_project.write_parquet_to_bq scheduled__2023-09-27T00:00:00+00:00 [queued]>
+[2023-10-03T13:45:11.640+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: capstone_project.write_parquet_to_bq scheduled__2023-09-27T00:00:00+00:00 [queued]>
+[2023-10-03T13:45:11.640+0000] {taskinstance.py:1331} INFO - Starting attempt 4 of 4
+[2023-10-03T13:45:11.658+0000] {taskinstance.py:1350} INFO - Executing <Task(GCSToBigQueryOperator): write_parquet_to_bq> on 2023-09-27 00:00:00+00:00
+[2023-10-03T13:45:11.672+0000] {standard_task_runner.py:57} INFO - Started process 1130 to run task
+[2023-10-03T13:45:11.677+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'capstone_project', 'write_parquet_to_bq', 'scheduled__2023-09-27T00:00:00+00:00', '--job-id', '353', '--raw', '--subdir', 'DAGS_FOLDER/capstone_project.py', '--cfg-path', '/tmp/tmpeu929gx0']
+[2023-10-03T13:45:11.680+0000] {standard_task_runner.py:85} INFO - Job 353: Subtask write_parquet_to_bq
+[2023-10-03T13:45:11.734+0000] {task_command.py:410} INFO - Running <TaskInstance: capstone_project.write_parquet_to_bq scheduled__2023-09-27T00:00:00+00:00 [running]> on host 9a30478b5169
+[2023-10-03T13:45:11.820+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='capstone_project' AIRFLOW_CTX_TASK_ID='write_parquet_to_bq' AIRFLOW_CTX_EXECUTION_DATE='2023-09-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-27T00:00:00+00:00'
+[2023-10-03T13:45:11.829+0000] {base.py:73} INFO - Using connection ID 'google_cloud_conn' for task execution.
+[2023-10-03T13:45:11.834+0000] {gcs_to_bigquery.py:372} INFO - Using existing BigQuery table for storing data...
+[2023-10-03T13:45:11.878+0000] {gcs_to_bigquery.py:376} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'aflow-training-rabo-2023-10-02', 'datasetId': 'maurits_dataset', 'tableId': 'rocket_launches'}, 'sourceFormat': 'PARQUET', 'sourceUris': ['gs://aflow-training-rabo-2023-10-02/maurits_dataset/2023-09-27.parquet'], 'writeDisposition': 'WRITE_APPEND', 'ignoreUnknownValues': False}}
+[2023-10-03T13:45:11.879+0000] {bigquery.py:1562} INFO - Inserting job ***_capstone_project_write_parquet_to_bq_2023_09_27T00_00_00_00_00_8dd1240dad0e343b1a8296b3b9664ffe
+[2023-10-03T13:45:17.313+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 435, in execute
+    job.result(timeout=self.result_timeout, retry=self.result_retry)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 728, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Error while reading data, error message: Character '.' found in field name: launch_service_provider.name, parquet file: gs://aflow-training-rabo-2023-10-02/maurits_dataset/2023-09-27.parquet.Reading such fields is not yet supported. File: gs://aflow-training-rabo-2023-10-02/maurits_dataset/2023-09-27.parquet
+[2023-10-03T13:45:17.321+0000] {taskinstance.py:1373} INFO - Marking task as FAILED. dag_id=capstone_project, task_id=write_parquet_to_bq, execution_date=20230927T000000, start_date=20231003T134511, end_date=20231003T134517
+[2023-10-03T13:45:17.338+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 353 for task write_parquet_to_bq (400 Error while reading data, error message: Character '.' found in field name: launch_service_provider.name, parquet file: gs://aflow-training-rabo-2023-10-02/maurits_dataset/2023-09-27.parquet.Reading such fields is not yet supported. File: gs://aflow-training-rabo-2023-10-02/maurits_dataset/2023-09-27.parquet; 1130)
+[2023-10-03T13:45:17.353+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-10-03T13:45:17.367+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

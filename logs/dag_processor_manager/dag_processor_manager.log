@@ -9145,3 +9145,672 @@ File Path                              PID    Runtime      # DAGs    # Errors  L
 /opt/airflow/dags/capstone_project.py                           1           0  0.09s           2023-10-03T13:12:29
 /opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:12:31
 ================================================================================
+[2023-10-03T13:13:22.823+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.28s           2023-10-03T13:12:59
+/opt/airflow/dags/dag_1.py                                      1           0  0.23s           2023-10-03T13:13:01
+================================================================================
+[2023-10-03T13:13:48.165+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:13:48.167+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:13:53.192+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.17s           2023-10-03T13:13:30
+/opt/airflow/dags/dag_1.py                                      1           0  0.12s           2023-10-03T13:13:32
+================================================================================
+[2023-10-03T13:14:23.565+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.09s           2023-10-03T13:14:19
+/opt/airflow/dags/dag_1.py                                      1           0  0.08s           2023-10-03T13:14:02
+================================================================================
+[2023-10-03T13:14:48.726+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:14:48.728+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:14:53.767+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.15s           2023-10-03T13:14:49
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:14:32
+================================================================================
+[2023-10-03T13:15:23.962+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.09s           2023-10-03T13:15:20
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:15:02
+================================================================================
+[2023-10-03T13:15:49.142+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:15:49.143+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:15:54.281+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.10s           2023-10-03T13:15:53
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:15:33
+================================================================================
+[2023-10-03T13:16:24.775+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.19s           2023-10-03T13:16:15
+/opt/airflow/dags/dag_1.py                                      1           0  0.10s           2023-10-03T13:16:03
+================================================================================
+[2023-10-03T13:16:49.992+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:16:49.994+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:16:55.030+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.07s           2023-10-03T13:16:43
+/opt/airflow/dags/dag_1.py                                      1           0  0.12s           2023-10-03T13:16:33
+================================================================================
+[2023-10-03T13:17:25.263+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.05s           2023-10-03T13:17:22
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:17:04
+================================================================================
+[2023-10-03T13:17:50.500+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:17:50.502+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:17:55.557+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:17:54
+/opt/airflow/dags/dag_1.py                                      1           0  0.16s           2023-10-03T13:17:34
+================================================================================
+[2023-10-03T13:18:25.863+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.05s           2023-10-03T13:18:14
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:18:04
+================================================================================
+[2023-10-03T13:18:50.975+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:18:50.976+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:18:56.010+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:18:44
+/opt/airflow/dags/dag_1.py                                      1           0  0.13s           2023-10-03T13:18:35
+================================================================================
+[2023-10-03T13:19:26.145+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.05s           2023-10-03T13:19:15
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:19:05
+================================================================================
+[2023-10-03T13:19:51.318+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:19:51.320+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:19:56.347+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.05s           2023-10-03T13:19:46
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:19:35
+================================================================================
+[2023-10-03T13:20:26.506+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py    520  0.00s             0           1  0.04s           2023-10-03T13:20:25
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:20:05
+================================================================================
+[2023-10-03T13:20:51.670+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:20:51.672+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:20:56.719+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:20:55
+/opt/airflow/dags/dag_1.py                                      1           0  0.11s           2023-10-03T13:20:35
+================================================================================
+[2023-10-03T13:21:27.052+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:21:26
+/opt/airflow/dags/dag_1.py                                      1           0  0.17s           2023-10-03T13:21:05
+================================================================================
+[2023-10-03T13:21:52.346+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:21:52.347+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:21:57.375+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.09s           2023-10-03T13:21:46
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:21:36
+================================================================================
+[2023-10-03T13:22:27.518+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:22:07
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:22:06
+================================================================================
+[2023-10-03T13:22:52.693+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:22:52.695+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:22:57.721+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:22:47
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:22:36
+================================================================================
+[2023-10-03T13:23:27.884+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:23:22
+/opt/airflow/dags/dag_1.py                                      1           0  0.10s           2023-10-03T13:23:06
+================================================================================
+[2023-10-03T13:23:53.172+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:23:53.174+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:23:58.205+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.07s           2023-10-03T13:23:52
+/opt/airflow/dags/dag_1.py                                      1           0  0.14s           2023-10-03T13:23:37
+================================================================================
+[2023-10-03T13:24:28.445+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:24:21
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:24:07
+================================================================================
+[2023-10-03T13:24:53.638+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:24:53.640+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:24:58.677+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:24:57
+/opt/airflow/dags/dag_1.py                                      1           0  0.11s           2023-10-03T13:24:37
+================================================================================
+[2023-10-03T13:25:28.909+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:25:25
+/opt/airflow/dags/dag_1.py                                      1           0  0.12s           2023-10-03T13:25:07
+================================================================================
+[2023-10-03T13:25:54.046+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:25:54.048+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:25:59.079+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:25:41
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:25:38
+================================================================================
+[2023-10-03T13:26:29.268+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.06s           2023-10-03T13:26:11
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:26:08
+================================================================================
+[2023-10-03T13:26:54.401+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:26:54.403+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:26:59.432+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:26:41
+/opt/airflow/dags/dag_1.py                                      1           0  0.12s           2023-10-03T13:26:38
+================================================================================
+[2023-10-03T13:27:29.583+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.06s           2023-10-03T13:27:11
+/opt/airflow/dags/dag_1.py                                      1           0  0.13s           2023-10-03T13:27:08
+================================================================================
+[2023-10-03T13:27:54.742+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:27:54.744+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:27:59.773+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.06s           2023-10-03T13:27:34
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:27:38
+================================================================================
+[2023-10-03T13:28:29.933+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:28:04
+/opt/airflow/dags/dag_1.py                                      1           0  0.17s           2023-10-03T13:28:09
+================================================================================
+[2023-10-03T13:28:55.123+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:28:55.125+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:29:00.157+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py    707  0.00s             0           1  0.05s           2023-10-03T13:28:47
+/opt/airflow/dags/dag_1.py                                      1           0  0.18s           2023-10-03T13:28:40
+================================================================================
+[2023-10-03T13:29:30.349+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:29:06
+/opt/airflow/dags/dag_1.py                                      1           0  0.15s           2023-10-03T13:29:10
+================================================================================
+[2023-10-03T13:29:55.483+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:29:55.485+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:30:00.508+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:29:36
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:29:40
+================================================================================
+[2023-10-03T13:30:30.678+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.05s           2023-10-03T13:30:06
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:30:10
+================================================================================
+[2023-10-03T13:30:55.873+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:30:55.874+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:31:00.920+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:30:56
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:30:40
+================================================================================
+[2023-10-03T13:31:31.060+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:31:01
+/opt/airflow/dags/dag_1.py                                      1           0  0.10s           2023-10-03T13:31:11
+================================================================================
+[2023-10-03T13:31:56.240+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:31:56.242+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:32:01.268+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.08s           2023-10-03T13:31:32
+/opt/airflow/dags/dag_1.py                                      1           0  0.15s           2023-10-03T13:31:41
+================================================================================
+[2023-10-03T13:32:31.412+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:32:29
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:32:11
+================================================================================
+[2023-10-03T13:32:56.554+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:32:56.556+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:33:01.581+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:32:37
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:32:41
+================================================================================
+[2023-10-03T13:33:31.784+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.05s           2023-10-03T13:33:19
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:33:11
+================================================================================
+[2023-10-03T13:33:56.893+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:33:56.894+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:34:01.940+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:34:00
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:33:41
+================================================================================
+[2023-10-03T13:34:32.114+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:34:31
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:34:12
+================================================================================
+[2023-10-03T13:34:57.278+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:34:57.280+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:35:02.348+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.06s           2023-10-03T13:34:57
+/opt/airflow/dags/dag_1.py                                      1           0  0.10s           2023-10-03T13:34:42
+================================================================================
+[2023-10-03T13:35:32.507+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.05s           2023-10-03T13:35:08
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:35:12
+================================================================================
+[2023-10-03T13:35:57.642+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:35:57.644+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:36:02.673+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.04s           2023-10-03T13:35:38
+/opt/airflow/dags/dag_1.py                                      1           0  0.14s           2023-10-03T13:35:42
+================================================================================
+[2023-10-03T13:36:32.883+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.05s           2023-10-03T13:36:28
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:36:12
+================================================================================
+[2023-10-03T13:36:57.992+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:36:57.994+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:37:03.060+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           0           1  0.06s           2023-10-03T13:37:00
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:36:43
+================================================================================
+[2023-10-03T13:37:33.501+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.27s           2023-10-03T13:37:09
+/opt/airflow/dags/dag_1.py                                      1           0  0.27s           2023-10-03T13:37:13
+================================================================================
+[2023-10-03T13:37:58.691+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:37:58.692+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:38:03.723+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.09s           2023-10-03T13:37:39
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:37:43
+================================================================================
+[2023-10-03T13:38:33.964+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py    901  0.00s             1           0  0.17s           2023-10-03T13:38:32
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:38:13
+================================================================================
+[2023-10-03T13:38:59.315+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:38:59.316+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:39:04.340+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.14s           2023-10-03T13:38:42
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:38:44
+================================================================================
+[2023-10-03T13:39:34.479+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.14s           2023-10-03T13:39:12
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:39:14
+================================================================================
+[2023-10-03T13:39:59.727+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:39:59.729+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:40:04.758+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.09s           2023-10-03T13:39:42
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:39:44
+================================================================================
+[2023-10-03T13:40:34.888+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.15s           2023-10-03T13:40:12
+/opt/airflow/dags/dag_1.py                                      1           0  0.10s           2023-10-03T13:40:14
+================================================================================
+[2023-10-03T13:41:00.159+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:41:00.160+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:41:05.186+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.10s           2023-10-03T13:40:43
+/opt/airflow/dags/dag_1.py                                      1           0  0.18s           2023-10-03T13:40:45
+================================================================================
+[2023-10-03T13:41:35.500+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.19s           2023-10-03T13:41:24
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:41:15
+================================================================================
+[2023-10-03T13:42:00.686+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:42:00.688+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:42:05.721+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.11s           2023-10-03T13:41:54
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:41:45
+================================================================================
+[2023-10-03T13:42:35.955+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.09s           2023-10-03T13:42:24
+/opt/airflow/dags/dag_1.py                                      1           0  0.13s           2023-10-03T13:42:15
+================================================================================
+[2023-10-03T13:43:01.167+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:43:01.168+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:43:06.196+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.10s           2023-10-03T13:42:55
+/opt/airflow/dags/dag_1.py                                      1           0  0.12s           2023-10-03T13:42:46
+================================================================================
+[2023-10-03T13:43:36.646+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.12s           2023-10-03T13:43:33
+/opt/airflow/dags/dag_1.py                                      1           0  0.19s           2023-10-03T13:43:16
+================================================================================
+[2023-10-03T13:44:01.915+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:44:01.917+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:44:06.960+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.11s           2023-10-03T13:43:49
+/opt/airflow/dags/dag_1.py                                      1           0  0.18s           2023-10-03T13:43:46
+================================================================================
+[2023-10-03T13:44:37.365+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.11s           2023-10-03T13:44:29
+/opt/airflow/dags/dag_1.py                                      1           0  0.10s           2023-10-03T13:44:17
+================================================================================
+[2023-10-03T13:45:02.852+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:45:02.853+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:45:07.982+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.10s           2023-10-03T13:45:06
+/opt/airflow/dags/dag_1.py                                      1           0  0.11s           2023-10-03T13:44:47
+================================================================================
+[2023-10-03T13:45:38.172+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.09s           2023-10-03T13:45:36
+/opt/airflow/dags/dag_1.py                                      1           0  0.09s           2023-10-03T13:45:18
+================================================================================
+[2023-10-03T13:46:03.338+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-10-03T13:46:03.340+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-03T13:46:08.466+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.18s           2023-10-03T13:46:07
+/opt/airflow/dags/dag_1.py                                      1           0  0.13s           2023-10-03T13:45:48
+================================================================================
+[2023-10-03T13:46:38.740+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/capstone_project.py                           1           0  0.10s           2023-10-03T13:46:37
+/opt/airflow/dags/dag_1.py                                      1           0  0.16s           2023-10-03T13:46:18
+================================================================================
