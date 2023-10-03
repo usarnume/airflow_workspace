@@ -10,7 +10,7 @@ import json
 from airflow.exceptions import AirflowSkipException
 import pandas as pd
 from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateEmptyDatasetOperator
-
+from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesystemToGCSOperator
 
 
 
@@ -71,7 +71,7 @@ schedule="@daily",
 
 
     def _preprocess_data(task_instance, **context):
-        response = task_instance.xcom_pull(task_ids="call_space_devs_api") # the output in XCom is coming from this task
+        response = task_instance.xcom_pull(task_ids="call_space_devs_api", key="return_value") # the output in XCom is coming from this task
         response_dict = json.loads(response)
         response_results = response_dict["results"]
         df_results = pd.DataFrame([_extract_relevant_data(i) for i in response_results])
@@ -89,8 +89,17 @@ schedule="@daily",
                                                               gcp_conn_id="google_cloud_conn",
                                                               dataset_id="maurits_dataset")
 
+    # Step 5: writing data to the empty table
+    upload_file = LocalFilesystemToGCSOperator(
+        task_id="upload_file_to_gcs",
+        src="/tmp/{{ ds }}.parquet",
+        dst="maurits_dataset/{{ ds }}.parquet",
+        bucket="aflow-training-rabo-2023-10-02",
+        gcp_conn_id='google_cloud_conn', # defined remote
+    )
+
     # definition of the dag
-    call_http_status >> call_space_devs_api >> check_results >> create_empty_dataset
+    call_http_status >> call_space_devs_api >> check_results >> create_empty_dataset >> upload_file
 
 
 

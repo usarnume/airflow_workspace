@@ -1,0 +1,14 @@
+[2023-10-03T13:12:47.930+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: capstone_project.upload_file_to_gcs scheduled__2023-09-27T00:00:00+00:00 [queued]>
+[2023-10-03T13:12:47.938+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: capstone_project.upload_file_to_gcs scheduled__2023-09-27T00:00:00+00:00 [queued]>
+[2023-10-03T13:12:47.938+0000] {taskinstance.py:1331} INFO - Starting attempt 7 of 7
+[2023-10-03T13:12:47.956+0000] {taskinstance.py:1350} INFO - Executing <Task(LocalFilesystemToGCSOperator): upload_file_to_gcs> on 2023-09-27 00:00:00+00:00
+[2023-10-03T13:12:47.962+0000] {standard_task_runner.py:57} INFO - Started process 526 to run task
+[2023-10-03T13:12:47.965+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'capstone_project', 'upload_file_to_gcs', 'scheduled__2023-09-27T00:00:00+00:00', '--job-id', '344', '--raw', '--subdir', 'DAGS_FOLDER/capstone_project.py', '--cfg-path', '/tmp/tmpuvw_g8_l']
+[2023-10-03T13:12:47.966+0000] {standard_task_runner.py:85} INFO - Job 344: Subtask upload_file_to_gcs
+[2023-10-03T13:12:48.008+0000] {task_command.py:410} INFO - Running <TaskInstance: capstone_project.upload_file_to_gcs scheduled__2023-09-27T00:00:00+00:00 [running]> on host 9a30478b5169
+[2023-10-03T13:12:48.087+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='capstone_project' AIRFLOW_CTX_TASK_ID='upload_file_to_gcs' AIRFLOW_CTX_EXECUTION_DATE='2023-09-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-27T00:00:00+00:00'
+[2023-10-03T13:12:48.094+0000] {base.py:73} INFO - Using connection ID 'google_cloud_conn' for task execution.
+[2023-10-03T13:12:48.341+0000] {gcs.py:538} INFO - File /tmp/2023-09-27.parquet uploaded to maurits_dataset/2023-09-27.parquet in aflow-training-rabo-2023-10-02 bucket
+[2023-10-03T13:12:48.349+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=capstone_project, task_id=upload_file_to_gcs, execution_date=20230927T000000, start_date=20231003T131247, end_date=20231003T131248
+[2023-10-03T13:12:48.377+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-10-03T13:12:48.392+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

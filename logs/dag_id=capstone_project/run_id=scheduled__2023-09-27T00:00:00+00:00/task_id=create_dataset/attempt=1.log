@@ -15,3 +15,20 @@
 [2023-10-03T12:38:09.082+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=capstone_project, task_id=create_dataset, execution_date=20230927T000000, start_date=20231003T123806, end_date=20231003T123809
 [2023-10-03T12:38:09.168+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
 [2023-10-03T12:38:09.225+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-10-03T12:57:48.152+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: capstone_project.create_dataset scheduled__2023-09-27T00:00:00+00:00 [queued]>
+[2023-10-03T12:57:48.191+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: capstone_project.create_dataset scheduled__2023-09-27T00:00:00+00:00 [queued]>
+[2023-10-03T12:57:48.198+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-10-03T12:57:48.370+0000] {taskinstance.py:1350} INFO - Executing <Task(BigQueryCreateEmptyDatasetOperator): create_dataset> on 2023-09-27 00:00:00+00:00
+[2023-10-03T12:57:48.398+0000] {standard_task_runner.py:57} INFO - Started process 213 to run task
+[2023-10-03T12:57:48.408+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'capstone_project', 'create_dataset', 'scheduled__2023-09-27T00:00:00+00:00', '--job-id', '319', '--raw', '--subdir', 'DAGS_FOLDER/capstone_project.py', '--cfg-path', '/tmp/tmpkqujzkl6']
+[2023-10-03T12:57:48.410+0000] {standard_task_runner.py:85} INFO - Job 319: Subtask create_dataset
+[2023-10-03T12:57:48.538+0000] {task_command.py:410} INFO - Running <TaskInstance: capstone_project.create_dataset scheduled__2023-09-27T00:00:00+00:00 [running]> on host 9a30478b5169
+[2023-10-03T12:57:48.994+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='capstone_project' AIRFLOW_CTX_TASK_ID='create_dataset' AIRFLOW_CTX_EXECUTION_DATE='2023-09-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-27T00:00:00+00:00'
+[2023-10-03T12:57:49.095+0000] {base.py:73} INFO - Using connection ID 'google_cloud_conn' for task execution.
+[2023-10-03T12:57:49.476+0000] {bigquery.py:455} INFO - datasetId was not specified in `dataset_reference`. Will use default value maurits_dataset.
+[2023-10-03T12:57:49.506+0000] {bigquery.py:455} INFO - projectId was not specified in `dataset_reference`. Will use default value aflow-training-rabo-2023-10-02.
+[2023-10-03T12:57:49.517+0000] {bigquery.py:465} INFO - Creating dataset: maurits_dataset in project: aflow-training-rabo-2023-10-02 
+[2023-10-03T12:57:49.924+0000] {bigquery.py:1855} INFO - Dataset maurits_dataset already exists.
+[2023-10-03T12:57:49.946+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=capstone_project, task_id=create_dataset, execution_date=20230927T000000, start_date=20231003T125748, end_date=20231003T125749
+[2023-10-03T12:57:50.063+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-10-03T12:57:50.142+0000] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check
