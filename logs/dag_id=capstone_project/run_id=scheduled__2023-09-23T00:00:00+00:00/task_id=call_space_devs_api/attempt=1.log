@@ -16,3 +16,21 @@
 [2023-10-03T09:06:24.791+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=capstone_project, task_id=call_space_devs_api, execution_date=20230923T000000, start_date=20231003T090622, end_date=20231003T090624
 [2023-10-03T09:06:24.950+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
 [2023-10-03T09:06:25.004+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-10-03T09:40:08.640+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: capstone_project.call_space_devs_api scheduled__2023-09-23T00:00:00+00:00 [queued]>
+[2023-10-03T09:40:08.792+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: capstone_project.call_space_devs_api scheduled__2023-09-23T00:00:00+00:00 [queued]>
+[2023-10-03T09:40:08.827+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-10-03T09:40:09.051+0000] {taskinstance.py:1350} INFO - Executing <Task(SimpleHttpOperator): call_space_devs_api> on 2023-09-23 00:00:00+00:00
+[2023-10-03T09:40:09.096+0000] {standard_task_runner.py:57} INFO - Started process 1177 to run task
+[2023-10-03T09:40:09.123+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'capstone_project', 'call_space_devs_api', 'scheduled__2023-09-23T00:00:00+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/capstone_project.py', '--cfg-path', '/tmp/tmpbw7tuv6y']
+[2023-10-03T09:40:09.134+0000] {standard_task_runner.py:85} INFO - Job 114: Subtask call_space_devs_api
+[2023-10-03T09:40:09.390+0000] {task_command.py:410} INFO - Running <TaskInstance: capstone_project.call_space_devs_api scheduled__2023-09-23T00:00:00+00:00 [running]> on host 9a30478b5169
+[2023-10-03T09:40:09.592+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:205: AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-10-03T09:40:09.805+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='capstone_project' AIRFLOW_CTX_TASK_ID='call_space_devs_api' AIRFLOW_CTX_EXECUTION_DATE='2023-09-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-23T00:00:00+00:00'
+[2023-10-03T09:40:09.806+0000] {http.py:123} INFO - Calling HTTP method
+[2023-10-03T09:40:09.857+0000] {base.py:73} INFO - Using connection ID 'thespacedevs_dev' for task execution.
+[2023-10-03T09:40:10.778+0000] {http.py:127} INFO - {"count":0,"next":null,"previous":null,"results":[]}
+[2023-10-03T09:40:10.957+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=capstone_project, task_id=call_space_devs_api, execution_date=20230923T000000, start_date=20231003T094008, end_date=20231003T094010
+[2023-10-03T09:40:11.060+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-10-03T09:40:11.175+0000] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check

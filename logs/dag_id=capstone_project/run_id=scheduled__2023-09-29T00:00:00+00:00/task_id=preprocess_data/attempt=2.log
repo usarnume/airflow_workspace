@@ -1,0 +1,15 @@
+[2023-10-03T10:05:54.629+0000] {taskinstance.py:1119} INFO - Dependencies not met for <TaskInstance: capstone_project.preprocess_data scheduled__2023-09-29T00:00:00+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
+[2023-10-03T10:05:54.696+0000] {local_task_job_runner.py:161} INFO - Task is not able to be run
+[2023-10-03T10:13:21.416+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: capstone_project.preprocess_data scheduled__2023-09-29T00:00:00+00:00 [queued]>
+[2023-10-03T10:13:21.492+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: capstone_project.preprocess_data scheduled__2023-09-29T00:00:00+00:00 [queued]>
+[2023-10-03T10:13:21.495+0000] {taskinstance.py:1331} INFO - Starting attempt 2 of 2
+[2023-10-03T10:13:21.540+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): preprocess_data> on 2023-09-29 00:00:00+00:00
+[2023-10-03T10:13:21.556+0000] {standard_task_runner.py:57} INFO - Started process 262 to run task
+[2023-10-03T10:13:21.586+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'capstone_project', 'preprocess_data', 'scheduled__2023-09-29T00:00:00+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/capstone_project.py', '--cfg-path', '/tmp/tmpk73z67xg']
+[2023-10-03T10:13:21.594+0000] {standard_task_runner.py:85} INFO - Job 189: Subtask preprocess_data
+[2023-10-03T10:13:21.896+0000] {task_command.py:410} INFO - Running <TaskInstance: capstone_project.preprocess_data scheduled__2023-09-29T00:00:00+00:00 [running]> on host 9a30478b5169
+[2023-10-03T10:13:24.586+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='capstone_project' AIRFLOW_CTX_TASK_ID='preprocess_data' AIRFLOW_CTX_EXECUTION_DATE='2023-09-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-29T00:00:00+00:00'
+[2023-10-03T10:13:25.354+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-10-03T10:13:25.508+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=capstone_project, task_id=preprocess_data, execution_date=20230929T000000, start_date=20231003T101321, end_date=20231003T101325
+[2023-10-03T10:13:25.714+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-10-03T10:13:25.922+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

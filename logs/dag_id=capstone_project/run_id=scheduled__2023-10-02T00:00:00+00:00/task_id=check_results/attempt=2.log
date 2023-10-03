@@ -1,0 +1,24 @@
+[2023-10-03T10:09:02.612+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: capstone_project.check_results scheduled__2023-10-02T00:00:00+00:00 [queued]>
+[2023-10-03T10:09:02.620+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: capstone_project.check_results scheduled__2023-10-02T00:00:00+00:00 [queued]>
+[2023-10-03T10:09:02.621+0000] {taskinstance.py:1331} INFO - Starting attempt 2 of 2
+[2023-10-03T10:09:02.638+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): check_results> on 2023-10-02 00:00:00+00:00
+[2023-10-03T10:09:02.644+0000] {standard_task_runner.py:57} INFO - Started process 117 to run task
+[2023-10-03T10:09:02.648+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'capstone_project', 'check_results', 'scheduled__2023-10-02T00:00:00+00:00', '--job-id', '173', '--raw', '--subdir', 'DAGS_FOLDER/capstone_project.py', '--cfg-path', '/tmp/tmp7yj8nvqz']
+[2023-10-03T10:09:02.649+0000] {standard_task_runner.py:85} INFO - Job 173: Subtask check_results
+[2023-10-03T10:09:02.739+0000] {task_command.py:410} INFO - Running <TaskInstance: capstone_project.check_results scheduled__2023-10-02T00:00:00+00:00 [running]> on host 9a30478b5169
+[2023-10-03T10:09:02.992+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='capstone_project' AIRFLOW_CTX_TASK_ID='check_results' AIRFLOW_CTX_EXECUTION_DATE='2023-10-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-02T00:00:00+00:00'
+[2023-10-03T10:09:03.002+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/capstone_project.py", line 40, in _check_if_data_in_request
+    response_dict = json.loads(response)
+  File "/usr/local/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+[2023-10-03T10:09:03.008+0000] {taskinstance.py:1373} INFO - Marking task as FAILED. dag_id=capstone_project, task_id=check_results, execution_date=20231002T000000, start_date=20231003T100902, end_date=20231003T100903
+[2023-10-03T10:09:03.030+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 173 for task check_results (the JSON object must be str, bytes or bytearray, not NoneType; 117)
+[2023-10-03T10:09:03.061+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-10-03T10:09:03.089+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -5,7 +5,10 @@ from airflow.models import DAG
 import pendulum
 from airflow.providers.http.sensors.http import HttpSensor
 from airflow.providers.http.operators.http import SimpleHttpOperator
-
+from airflow.operators.python import ShortCircuitOperator
+import json
+from airflow.exceptions import AirflowSkipException
+import pandas as pd
 
 # https://airflow.apache.org/docs/apache-airflow/stable/templates-ref.html
 
@@ -30,7 +33,47 @@ schedule="@daily",
         endpoint="", 
         dag=dag)
 
-    call_http_status >> call_space_devs_api
+    def _check_if_data_in_request(task_instance, **context):
+
+        response = task_instance.xcom_pull(task_ids="call_space_devs_api",
+                                           key="return_value")
+        print(response, type(response))
+        response_dict = json.loads(response)
+
+        if response_dict["count"] == 0:
+            raise AirflowSkipException(f"No launches for today {context['ds']}.")
+
+
+    check_results = PythonOperator(task_id="check_results",
+                                         python_callable=_check_if_data_in_request,
+                                         provide_context=True,
+                                         dag=dag)
+
+
+    def _extract_relevant_data(x: dict):
+        return {"id": x.get("id"),
+                "name": x.get("name"),
+                "status.abbrev": x.get("status.abbrev"),
+                "mission.agencies.country_code": x.get("mission.agencies.country_code"),
+                "launch_service_provider.name": x.get("launch_service_provider.name"),
+                "launch_service_provider.type": x.get("launch_service_provider.type")}
+
+
+    def _preprocess_data(task_instance, **context):
+        response = task_instance.xcom_pull(task_ids="call_space_devs_api")
+        response_dict = json.loads(response)
+        response_results = response_dict["results"]
+        df_results = pd.DataFrame([_extract_relevant_data(i) for i in response_results])
+        df_results.to_parquet(path=f"/tmp/{context['ds']}.parquet")
+
+    preprocess_data = PythonOperator(
+        task_id="preprocess_data",
+        python_callable=_preprocess_data,
+        dag=dag
+    )
+
+
+    call_http_status >> call_space_devs_api >> check_results
 
 
 
