@@ -1,0 +1,66 @@
+[2023-10-03T08:56:38.290+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: capstone_project.call_space_devs_api manual__2023-10-03T08:05:07.055773+00:00 [queued]>
+[2023-10-03T08:56:38.337+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: capstone_project.call_space_devs_api manual__2023-10-03T08:05:07.055773+00:00 [queued]>
+[2023-10-03T08:56:38.337+0000] {taskinstance.py:1331} INFO - Starting attempt 4 of 4
+[2023-10-03T08:56:38.389+0000] {taskinstance.py:1350} INFO - Executing <Task(SimpleHttpOperator): call_space_devs_api> on 2023-10-03 08:05:07.055773+00:00
+[2023-10-03T08:56:38.397+0000] {standard_task_runner.py:57} INFO - Started process 349 to run task
+[2023-10-03T08:56:38.418+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'capstone_project', 'call_space_devs_api', 'manual__2023-10-03T08:05:07.055773+00:00', '--job-id', '79', '--raw', '--subdir', 'DAGS_FOLDER/capstone_project.py', '--cfg-path', '/tmp/tmpjg1ejd80']
+[2023-10-03T08:56:38.419+0000] {standard_task_runner.py:85} INFO - Job 79: Subtask call_space_devs_api
+[2023-10-03T08:56:38.543+0000] {task_command.py:410} INFO - Running <TaskInstance: capstone_project.call_space_devs_api manual__2023-10-03T08:05:07.055773+00:00 [running]> on host 9a30478b5169
+[2023-10-03T08:56:38.837+0000] {abstractoperator.py:582} ERROR - Exception rendering Jinja template for task 'call_space_devs_api', field 'data'. Template: {'net__gt': '{{ _get_ds }}T00:00:00Z', 'net__lt': '{{ _get_next_ds }}T00:00:00Z'}
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 574, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 168, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 168, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 156, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 539, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 113, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 288, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return "".join(nodes)
+  File "<template>", line 12, in root
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: '_get_ds' is undefined
+[2023-10-03T08:56:38.840+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1430, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1554, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2202, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1254, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 574, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 168, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 168, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 156, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 539, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 113, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 288, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return "".join(nodes)
+  File "<template>", line 12, in root
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: '_get_ds' is undefined
+[2023-10-03T08:56:38.867+0000] {taskinstance.py:1373} INFO - Marking task as FAILED. dag_id=capstone_project, task_id=call_space_devs_api, execution_date=20231003T080507, start_date=20231003T085638, end_date=20231003T085638
+[2023-10-03T08:56:38.925+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 79 for task call_space_devs_api ('_get_ds' is undefined; 349)
+[2023-10-03T08:56:38.971+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-10-03T08:56:38.998+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

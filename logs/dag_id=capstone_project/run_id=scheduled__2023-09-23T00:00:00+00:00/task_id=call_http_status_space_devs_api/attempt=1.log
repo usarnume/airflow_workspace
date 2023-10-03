@@ -1,0 +1,48 @@
+[2023-10-03T08:05:02.929+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: capstone_project.call_http_status_space_devs_api scheduled__2023-09-23T00:00:00+00:00 [queued]>
+[2023-10-03T08:05:03.014+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: capstone_project.call_http_status_space_devs_api scheduled__2023-09-23T00:00:00+00:00 [queued]>
+[2023-10-03T08:05:03.020+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-10-03T08:05:03.167+0000] {taskinstance.py:1350} INFO - Executing <Task(HttpSensor): call_http_status_space_devs_api> on 2023-09-23 00:00:00+00:00
+[2023-10-03T08:05:03.173+0000] {standard_task_runner.py:57} INFO - Started process 876 to run task
+[2023-10-03T08:05:03.210+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'capstone_project', 'call_http_status_space_devs_api', 'scheduled__2023-09-23T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/capstone_project.py', '--cfg-path', '/tmp/tmpwi_fteqn']
+[2023-10-03T08:05:03.214+0000] {standard_task_runner.py:85} INFO - Job 11: Subtask call_http_status_space_devs_api
+[2023-10-03T08:05:03.746+0000] {task_command.py:410} INFO - Running <TaskInstance: capstone_project.call_http_status_space_devs_api scheduled__2023-09-23T00:00:00+00:00 [running]> on host 9a30478b5169
+[2023-10-03T08:05:04.622+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='capstone_project' AIRFLOW_CTX_TASK_ID='call_http_status_space_devs_api' AIRFLOW_CTX_EXECUTION_DATE='2023-09-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-23T00:00:00+00:00'
+[2023-10-03T08:05:04.627+0000] {http.py:122} INFO - Poking: 
+[2023-10-03T08:05:04.739+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/base.py", line 225, in execute
+    raise e
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/base.py", line 212, in execute
+    poke_return = self.poke(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/sensors/http.py", line 137, in poke
+    raise exc
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/sensors/http.py", line 128, in poke
+    extra_options=self.extra_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 148, in run
+    session = self.get_conn(headers)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 100, in get_conn
+    conn = self.get_connection(self.http_conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 434, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `http_default` isn't defined
+[2023-10-03T08:05:04.763+0000] {taskinstance.py:1373} INFO - Marking task as FAILED. dag_id=capstone_project, task_id=call_http_status_space_devs_api, execution_date=20230923T000000, start_date=20231003T080502, end_date=20231003T080504
+[2023-10-03T08:05:04.931+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 11 for task call_http_status_space_devs_api (The conn_id `http_default` isn't defined; 876)
+[2023-10-03T08:05:05.022+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-10-03T08:05:05.147+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-10-03T09:06:16.556+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: capstone_project.call_http_status_space_devs_api scheduled__2023-09-23T00:00:00+00:00 [queued]>
+[2023-10-03T09:06:16.651+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: capstone_project.call_http_status_space_devs_api scheduled__2023-09-23T00:00:00+00:00 [queued]>
+[2023-10-03T09:06:16.660+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-10-03T09:06:16.899+0000] {taskinstance.py:1350} INFO - Executing <Task(HttpSensor): call_http_status_space_devs_api> on 2023-09-23 00:00:00+00:00
+[2023-10-03T09:06:16.925+0000] {standard_task_runner.py:57} INFO - Started process 522 to run task
+[2023-10-03T09:06:16.944+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'capstone_project', 'call_http_status_space_devs_api', 'scheduled__2023-09-23T00:00:00+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/capstone_project.py', '--cfg-path', '/tmp/tmplqyd2ygl']
+[2023-10-03T09:06:16.946+0000] {standard_task_runner.py:85} INFO - Job 83: Subtask call_http_status_space_devs_api
+[2023-10-03T09:06:17.582+0000] {task_command.py:410} INFO - Running <TaskInstance: capstone_project.call_http_status_space_devs_api scheduled__2023-09-23T00:00:00+00:00 [running]> on host 9a30478b5169
+[2023-10-03T09:06:18.265+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='capstone_project' AIRFLOW_CTX_TASK_ID='call_http_status_space_devs_api' AIRFLOW_CTX_EXECUTION_DATE='2023-09-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-23T00:00:00+00:00'
+[2023-10-03T09:06:18.268+0000] {http.py:122} INFO - Poking: 
+[2023-10-03T09:06:18.321+0000] {base.py:73} INFO - Using connection ID 'thespacedevs_dev' for task execution.
+[2023-10-03T09:06:19.134+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2023-10-03T09:06:19.215+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=capstone_project, task_id=call_http_status_space_devs_api, execution_date=20230923T000000, start_date=20231003T090616, end_date=20231003T090619
+[2023-10-03T09:06:19.429+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-10-03T09:06:19.594+0000] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check
