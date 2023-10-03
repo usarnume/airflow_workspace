@@ -15,6 +15,7 @@ from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQue
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.hooks.postgres_hook import PostgresHook
 
+# Templates reference
 # https://airflow.apache.org/docs/apache-airflow/stable/templates-ref.html
 
 
@@ -40,6 +41,8 @@ schedule="@daily",
     # the simple http operator automtically passes output to XCom (can check return there)
     # https://lldev.thespacedevs.com/2.2.0/launch/ --> click on "filter"
     # you can check the results in the XCom (webinterface)
+
+    # https://airflow.apache.org/docs/apache-airflow-providers-http/stable/_api/airflow/providers/http/operators/http/index.html#airflow.providers.http.operators.http.SimpleHttpOperator
     call_space_devs_api = SimpleHttpOperator(
         task_id="call_space_devs_api", 
         http_conn_id="thespacedevs_dev", 
@@ -114,6 +117,7 @@ schedule="@daily",
     )
 
     # Step 7: create postgres table
+    # https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/operators/postgres_operator_howto_guide.html
     create_postgres_table = PostgresOperator(
         task_id="create_postgres_table",
         postgres_conn_id="postgres",
@@ -130,17 +134,13 @@ schedule="@daily",
     )
 
 
-    # Step 8: 
-    # Python operator
-    # Hook
-    # Copy expert
-    # CSV
-
+    # Step 8: write the parquet to postgres
     def _read_parquet_and_write_to_postgres(task_instance, **context):
         # Read data from parquet
         df_launches = pd.read_parquet(f"/tmp/{context['ds']}.parquet")
         df_launches.to_csv(f"/tmp/{context['ds']}.csv", header=False, index=False)
 
+        # https://airflow.apache.org/docs/apache-airflow/1.10.10/_api/airflow/hooks/postgres_hook/index.html
         hook = PostgresHook(postgres_conn_id="postgres")
         hook.copy_expert(f"COPY rocket_launches (id, name, status, country_code, service_provider_name, service_provider_type) FROM STDIN WITH CSV DELIMITER AS ','", f"/tmp/{context['ds']}.csv")
 
