@@ -22,3 +22,17 @@ TypeError: the JSON object must be str, bytes or bytearray, not NoneType
 [2023-10-03T09:40:15.624+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 124 for task check_results (the JSON object must be str, bytes or bytearray, not NoneType; 1194)
 [2023-10-03T09:40:15.737+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
 [2023-10-03T09:40:15.862+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-10-03T12:37:57.339+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: capstone_project.check_results scheduled__2023-09-23T00:00:00+00:00 [queued]>
+[2023-10-03T12:37:57.477+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: capstone_project.check_results scheduled__2023-09-23T00:00:00+00:00 [queued]>
+[2023-10-03T12:37:57.477+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-10-03T12:37:57.687+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): check_results> on 2023-09-23 00:00:00+00:00
+[2023-10-03T12:37:57.724+0000] {standard_task_runner.py:57} INFO - Started process 113 to run task
+[2023-10-03T12:37:57.790+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'capstone_project', 'check_results', 'scheduled__2023-09-23T00:00:00+00:00', '--job-id', '249', '--raw', '--subdir', 'DAGS_FOLDER/capstone_project.py', '--cfg-path', '/tmp/tmpr44smvsz']
+[2023-10-03T12:37:57.828+0000] {standard_task_runner.py:85} INFO - Job 249: Subtask check_results
+[2023-10-03T12:37:58.152+0000] {task_command.py:410} INFO - Running <TaskInstance: capstone_project.check_results scheduled__2023-09-23T00:00:00+00:00 [running]> on host 9a30478b5169
+[2023-10-03T12:37:58.756+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='capstone_project' AIRFLOW_CTX_TASK_ID='check_results' AIRFLOW_CTX_EXECUTION_DATE='2023-09-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-23T00:00:00+00:00'
+[2023-10-03T12:37:58.892+0000] {logging_mixin.py:149} INFO - {"count":0,"next":null,"previous":null,"results":[]} <class 'str'>
+[2023-10-03T12:37:58.898+0000] {taskinstance.py:1454} INFO - No launches for today 2023-09-23.
+[2023-10-03T12:37:58.950+0000] {taskinstance.py:1373} INFO - Marking task as SKIPPED. dag_id=capstone_project, task_id=check_results, execution_date=20230923T000000, start_date=20231003T123757, end_date=20231003T123758
+[2023-10-03T12:37:59.111+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-10-03T12:37:59.231+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

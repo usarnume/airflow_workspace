@@ -8423,3 +8423,893 @@ SyntaxError: invalid syntax
 [2023-10-03T11:51:16.337+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:51:16.337+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-10-03T11:51:16.359+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:51:16.359+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
 [2023-10-03T11:51:16.402+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.421 seconds
+[2023-10-03T11:51:46.514+0000] {processor.py:156} INFO - Started process (PID=2454) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:51:46.515+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:51:46.515+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:51:46.515+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:51:46.816+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:51:46.834+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:51:46.834+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:51:46.867+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:51:46.867+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:51:46.887+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.375 seconds
+[2023-10-03T11:52:17.735+0000] {processor.py:156} INFO - Started process (PID=2465) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:52:17.736+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:52:17.736+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:52:17.736+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:52:18.068+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:52:18.088+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:52:18.088+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:52:18.109+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:52:18.109+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:52:18.129+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.395 seconds
+[2023-10-03T11:52:48.957+0000] {processor.py:156} INFO - Started process (PID=2477) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:52:48.957+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:52:48.958+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:52:48.958+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:52:49.318+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:52:49.345+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:52:49.345+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:52:49.382+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:52:49.381+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:52:49.403+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.448 seconds
+[2023-10-03T11:53:20.189+0000] {processor.py:156} INFO - Started process (PID=2489) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:53:20.190+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:53:20.190+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:53:20.190+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:53:20.513+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:53:20.532+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:53:20.532+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:53:20.563+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:53:20.563+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:53:20.583+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.397 seconds
+[2023-10-03T11:53:51.379+0000] {processor.py:156} INFO - Started process (PID=2501) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:53:51.380+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:53:51.381+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:53:51.380+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:53:51.685+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:53:51.704+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:53:51.704+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:53:51.725+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:53:51.725+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:53:51.745+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.368 seconds
+[2023-10-03T11:54:22.572+0000] {processor.py:156} INFO - Started process (PID=2512) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:54:22.573+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:54:22.573+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:54:22.573+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:54:22.882+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:54:22.901+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:54:22.901+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:54:22.924+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:54:22.924+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:54:22.944+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.374 seconds
+[2023-10-03T11:54:53.766+0000] {processor.py:156} INFO - Started process (PID=2523) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:54:53.767+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:54:53.767+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:54:53.767+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:54:54.075+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:54:54.095+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:54:54.095+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:54:54.126+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:54:54.126+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:54:54.161+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.397 seconds
+[2023-10-03T11:55:24.960+0000] {processor.py:156} INFO - Started process (PID=2535) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:55:24.961+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:55:24.962+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:55:24.961+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:55:25.273+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:55:25.294+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:55:25.293+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:55:25.315+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:55:25.315+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:55:25.335+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.377 seconds
+[2023-10-03T11:55:56.149+0000] {processor.py:156} INFO - Started process (PID=2546) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:55:56.149+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:55:56.150+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:55:56.150+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:55:56.509+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:55:56.529+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:55:56.529+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:55:56.550+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:55:56.550+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:55:56.570+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.423 seconds
+[2023-10-03T11:56:27.349+0000] {processor.py:156} INFO - Started process (PID=2564) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:56:27.349+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:56:27.350+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:56:27.350+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:56:27.976+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:56:28.004+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:56:28.004+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:56:28.065+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:56:28.065+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:56:28.094+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.749 seconds
+[2023-10-03T11:56:58.544+0000] {processor.py:156} INFO - Started process (PID=2576) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:56:58.545+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:56:58.545+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:56:58.545+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:56:59.003+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:56:59.052+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:56:59.051+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:56:59.089+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:56:59.089+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:56:59.114+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.573 seconds
+[2023-10-03T11:57:29.784+0000] {processor.py:156} INFO - Started process (PID=2587) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:57:29.784+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:57:29.785+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:57:29.785+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:57:30.096+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:57:30.115+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:57:30.115+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:57:30.138+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:57:30.137+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:57:30.157+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.376 seconds
+[2023-10-03T11:58:00.971+0000] {processor.py:156} INFO - Started process (PID=2598) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:58:00.971+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:58:00.972+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:58:00.972+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:58:01.294+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:58:01.317+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:58:01.316+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:58:01.339+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:58:01.339+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:58:01.359+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.390 seconds
+[2023-10-03T11:58:32.163+0000] {processor.py:156} INFO - Started process (PID=2609) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:58:32.164+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:58:32.164+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:58:32.164+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:58:32.463+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:58:32.483+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:58:32.483+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:58:32.505+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:58:32.504+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:58:32.526+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.365 seconds
+[2023-10-03T11:59:03.351+0000] {processor.py:156} INFO - Started process (PID=2621) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:59:03.352+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:59:03.352+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:59:03.352+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:59:03.674+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:59:03.693+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:59:03.693+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:59:03.719+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:59:03.719+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:59:03.742+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.394 seconds
+[2023-10-03T11:59:34.572+0000] {processor.py:156} INFO - Started process (PID=2633) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:59:34.572+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T11:59:34.573+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:59:34.573+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:59:34.939+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T11:59:34.967+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:59:34.966+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T11:59:34.992+0000] {logging_mixin.py:149} INFO - [2023-10-03T11:59:34.992+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T11:59:35.014+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.444 seconds
+[2023-10-03T12:00:05.827+0000] {processor.py:156} INFO - Started process (PID=2644) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:00:05.828+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:00:05.829+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:00:05.828+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:00:06.144+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:00:06.166+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:00:06.165+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:00:06.189+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:00:06.189+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:00:06.210+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.386 seconds
+[2023-10-03T12:00:36.992+0000] {processor.py:156} INFO - Started process (PID=2655) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:00:36.992+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:00:36.993+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:00:36.993+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:00:37.312+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:00:37.335+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:00:37.334+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:00:37.357+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:00:37.356+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:00:37.377+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.387 seconds
+[2023-10-03T12:01:08.162+0000] {processor.py:156} INFO - Started process (PID=2666) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:01:08.163+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:01:08.163+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:01:08.163+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:01:08.482+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:01:08.503+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:01:08.503+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:01:08.525+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:01:08.525+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:01:08.549+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.390 seconds
+[2023-10-03T12:01:39.362+0000] {processor.py:156} INFO - Started process (PID=2677) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:01:39.362+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:01:39.363+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:01:39.363+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:01:39.718+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:01:39.738+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:01:39.738+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:01:39.769+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:01:39.768+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:01:39.816+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.456 seconds
+[2023-10-03T12:02:10.535+0000] {processor.py:156} INFO - Started process (PID=2689) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:02:10.536+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:02:10.537+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:02:10.537+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:02:10.979+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:02:10.999+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:02:10.999+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:02:11.021+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:02:11.021+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:02:11.041+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.508 seconds
+[2023-10-03T12:02:41.847+0000] {processor.py:156} INFO - Started process (PID=2702) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:02:41.848+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:02:41.849+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:02:41.849+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:02:42.152+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:02:42.172+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:02:42.172+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:02:42.194+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:02:42.194+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:02:42.218+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.374 seconds
+[2023-10-03T12:03:13.032+0000] {processor.py:156} INFO - Started process (PID=2713) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:03:13.033+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:03:13.034+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:03:13.033+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:03:13.364+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:03:13.384+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:03:13.384+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:03:13.408+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:03:13.408+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:03:13.428+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.398 seconds
+[2023-10-03T12:03:44.260+0000] {processor.py:156} INFO - Started process (PID=2725) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:03:44.261+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:03:44.261+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:03:44.261+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:03:44.585+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:03:44.614+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:03:44.613+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:03:44.648+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:03:44.648+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:03:44.675+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.418 seconds
+[2023-10-03T12:04:15.457+0000] {processor.py:156} INFO - Started process (PID=2736) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:04:15.458+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:04:15.458+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:04:15.458+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:04:15.831+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:04:15.860+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:04:15.860+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:04:15.892+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:04:15.892+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:04:15.923+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.469 seconds
+[2023-10-03T12:04:46.681+0000] {processor.py:156} INFO - Started process (PID=2747) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:04:46.681+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:04:46.682+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:04:46.682+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:04:47.035+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:04:47.054+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:04:47.054+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:04:47.077+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:04:47.077+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:04:47.100+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.422 seconds
+[2023-10-03T12:05:17.876+0000] {processor.py:156} INFO - Started process (PID=2758) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:05:17.877+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:05:17.878+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:05:17.878+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:05:18.179+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:05:18.199+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:05:18.198+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:05:18.220+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:05:18.220+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:05:18.242+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.369 seconds
+[2023-10-03T12:05:49.074+0000] {processor.py:156} INFO - Started process (PID=2770) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:05:49.075+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:05:49.076+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:05:49.075+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:05:49.381+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:05:49.401+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:05:49.401+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:05:49.422+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:05:49.422+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:05:49.441+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.369 seconds
+[2023-10-03T12:06:20.278+0000] {processor.py:156} INFO - Started process (PID=2781) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:06:20.278+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:06:20.279+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:06:20.279+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:06:20.605+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:06:20.625+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:06:20.625+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:06:20.647+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:06:20.647+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:06:20.667+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.391 seconds
+[2023-10-03T12:06:50.734+0000] {processor.py:156} INFO - Started process (PID=2793) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:06:50.735+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:06:50.735+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:06:50.735+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:06:51.041+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:06:51.061+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:06:51.060+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:06:51.083+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:06:51.082+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:06:51.109+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.377 seconds
+[2023-10-03T12:07:21.860+0000] {processor.py:156} INFO - Started process (PID=2804) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:07:21.861+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:07:21.862+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:07:21.862+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:07:22.250+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:07:22.273+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:07:22.273+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:07:22.297+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:07:22.297+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:07:22.317+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.458 seconds
+[2023-10-03T12:07:50.115+0000] {processor.py:156} INFO - Started process (PID=2815) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:07:50.116+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:07:50.116+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:07:50.116+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:07:50.409+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:07:50.429+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:07:50.429+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:07:50.462+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:07:50.462+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:07:50.485+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.372 seconds
+[2023-10-03T12:08:21.296+0000] {processor.py:156} INFO - Started process (PID=2826) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:08:21.297+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:08:21.297+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:08:21.297+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:08:21.617+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:08:21.636+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:08:21.636+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:08:21.658+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:08:21.657+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:08:21.677+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.384 seconds
+[2023-10-03T12:08:52.504+0000] {processor.py:156} INFO - Started process (PID=2837) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:08:52.505+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:08:52.506+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:08:52.506+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:08:53.068+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:08:53.099+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:08:53.098+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:08:53.133+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:08:53.133+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:08:53.170+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.669 seconds
+[2023-10-03T12:09:23.704+0000] {processor.py:156} INFO - Started process (PID=2849) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:09:23.706+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:09:23.707+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:09:23.707+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:09:24.185+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:09:24.213+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:09:24.213+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:09:24.247+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:09:24.247+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:09:24.274+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.573 seconds
+[2023-10-03T12:09:54.907+0000] {processor.py:156} INFO - Started process (PID=2861) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:09:54.907+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:09:54.908+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:09:54.907+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:09:55.208+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:09:55.227+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:09:55.227+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:09:55.249+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:09:55.248+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:09:55.268+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.364 seconds
+[2023-10-03T12:10:26.126+0000] {processor.py:156} INFO - Started process (PID=2873) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:10:26.126+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:10:26.127+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:10:26.127+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:10:26.421+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:10:26.441+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:10:26.441+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:10:26.463+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:10:26.463+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:10:26.483+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.360 seconds
+[2023-10-03T12:10:56.616+0000] {processor.py:156} INFO - Started process (PID=2884) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:10:56.617+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:10:56.617+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:10:56.617+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:10:56.922+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:10:56.943+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:10:56.942+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:10:56.964+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:10:56.964+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:10:56.984+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.371 seconds
+[2023-10-03T12:11:27.750+0000] {processor.py:156} INFO - Started process (PID=2895) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:11:27.750+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:11:27.751+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:11:27.751+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:11:28.221+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:11:28.251+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:11:28.250+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:11:28.272+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:11:28.272+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:11:28.292+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.545 seconds
+[2023-10-03T12:11:58.961+0000] {processor.py:156} INFO - Started process (PID=2907) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:11:58.962+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:11:58.962+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:11:58.962+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:11:59.343+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:11:59.363+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:11:59.362+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:11:59.386+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:11:59.386+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:11:59.414+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.455 seconds
+[2023-10-03T12:12:30.156+0000] {processor.py:156} INFO - Started process (PID=2919) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:12:30.156+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:12:30.157+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:12:30.157+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:12:30.597+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:12:30.616+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:12:30.616+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:12:30.639+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:12:30.639+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:12:30.661+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.508 seconds
+[2023-10-03T12:12:59.405+0000] {processor.py:156} INFO - Started process (PID=2930) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:12:59.406+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:12:59.407+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:12:59.407+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:12:59.941+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:12:59.969+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:12:59.968+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:13:00.005+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:13:00.005+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:13:00.034+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.631 seconds
+[2023-10-03T12:13:10.520+0000] {processor.py:156} INFO - Started process (PID=2940) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:13:10.521+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:13:10.522+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:13:10.521+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:13:11.125+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:13:11.116+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 85, in <module>
+    create_empty_dataset = BigQueryCreateEmptyData
+NameError: name 'BigQueryCreateEmptyData' is not defined
+[2023-10-03T12:13:11.126+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:13:11.155+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.638 seconds
+[2023-10-03T12:13:13.109+0000] {processor.py:156} INFO - Started process (PID=2943) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:13:13.110+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:13:13.110+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:13:13.110+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:13:13.443+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:13:13.442+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 85, in <module>
+    create_empty_dataset = BigQueryCreateEmptyData
+NameError: name 'BigQueryCreateEmptyData' is not defined
+[2023-10-03T12:13:13.444+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:13:13.463+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.357 seconds
+[2023-10-03T12:13:43.608+0000] {processor.py:156} INFO - Started process (PID=2954) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:13:43.609+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:13:43.610+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:13:43.610+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:13:44.158+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:13:44.156+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 85, in <module>
+    create_empty_dataset = BigQueryCreateEmptyDatasetOperator(task_id="create_dataset", dataset_id=DATASET_NAME)
+NameError: name 'BigQueryCreateEmptyData' is not defined
+[2023-10-03T12:13:44.158+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:13:44.186+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.580 seconds
+[2023-10-03T12:14:14.766+0000] {processor.py:156} INFO - Started process (PID=2965) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:14.767+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:14:14.767+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:14:14.767+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:15.078+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:14:15.076+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 85, in <module>
+    create_empty_dataset = BigQueryCreateEmptyDatasetOperator(task_id="create_dataset", dataset_id=DATASET_NAME)
+NameError: name 'BigQueryCreateEmptyDatasetOperator' is not defined
+[2023-10-03T12:14:15.078+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:15.098+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.334 seconds
+[2023-10-03T12:14:29.972+0000] {processor.py:156} INFO - Started process (PID=2969) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:29.972+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:14:29.973+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:14:29.973+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:29.975+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:14:29.974+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 14
+    This module contains Google BigQuery operators.
+              ^
+SyntaxError: invalid syntax
+[2023-10-03T12:14:29.975+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:29.995+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.026 seconds
+[2023-10-03T12:14:33.023+0000] {processor.py:156} INFO - Started process (PID=2978) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:33.023+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:14:33.024+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:14:33.023+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:33.026+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:14:33.025+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 13
+    from airflow.providers.google.cloud.operators.bigquery
+                                                         ^
+SyntaxError: invalid syntax
+[2023-10-03T12:14:33.026+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:33.046+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.027 seconds
+[2023-10-03T12:14:38.425+0000] {processor.py:156} INFO - Started process (PID=2981) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:38.433+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:14:38.435+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:14:38.435+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:38.445+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:14:38.444+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 90, in <module>
+    create_empty_dataset = BigQueryCreateEmptyDatasetOperator(task_id="create_dataset", dataset_id=DATASET_NAME)
+NameError: name 'DATASET_NAME' is not defined
+[2023-10-03T12:14:38.446+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:38.526+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.110 seconds
+[2023-10-03T12:14:39.493+0000] {processor.py:156} INFO - Started process (PID=2982) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:39.493+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:14:39.495+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:14:39.494+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:39.501+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:14:39.500+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 89, in <module>
+    create_empty_dataset = BigQueryCreateEmptyDatasetOperator(task_id="create_dataset", dataset_id=DATASET_NAME)
+NameError: name 'DATASET_NAME' is not defined
+[2023-10-03T12:14:39.501+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:39.522+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.031 seconds
+[2023-10-03T12:14:50.578+0000] {processor.py:156} INFO - Started process (PID=2984) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:50.578+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:14:50.580+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:14:50.580+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:50.586+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:14:50.586+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 89, in <module>
+    create_empty_dataset = BigQueryCreateEmptyDatasetOperator(task_id="create_dataset", dataset_id=DATASET_NAME)
+NameError: name 'DATASET_NAME' is not defined
+[2023-10-03T12:14:50.586+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:14:50.612+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.037 seconds
+[2023-10-03T12:15:09.656+0000] {processor.py:156} INFO - Started process (PID=2992) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:15:09.657+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:15:09.658+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:15:09.658+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:15:09.668+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:15:09.726+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:15:09.725+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:15:09.747+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:15:09.747+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:15:09.787+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.133 seconds
+[2023-10-03T12:15:11.687+0000] {processor.py:156} INFO - Started process (PID=2993) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:15:11.688+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:15:11.689+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:15:11.689+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:15:11.698+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:15:11.708+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:15:11.708+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:15:11.733+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:15:11.733+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:15:11.760+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.076 seconds
+[2023-10-03T12:15:14.705+0000] {processor.py:156} INFO - Started process (PID=2994) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:15:14.706+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:15:14.707+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:15:14.707+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:15:14.716+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:15:14.726+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:15:14.725+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:15:14.749+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:15:14.749+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:15:14.772+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.069 seconds
+[2023-10-03T12:15:35.888+0000] {processor.py:156} INFO - Started process (PID=3003) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:15:35.888+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:15:35.890+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:15:35.889+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:15:35.898+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:15:35.908+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:15:35.907+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:15:35.929+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:15:35.929+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:15:35.953+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.067 seconds
+[2023-10-03T12:16:06.072+0000] {processor.py:156} INFO - Started process (PID=3012) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:16:06.072+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:16:06.074+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:16:06.074+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:16:06.082+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:16:06.104+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:16:06.104+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:16:06.131+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:16:06.131+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:16:06.159+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.090 seconds
+[2023-10-03T12:16:36.302+0000] {processor.py:156} INFO - Started process (PID=3022) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:16:36.303+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:16:36.304+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:16:36.304+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:16:36.313+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:16:36.336+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:16:36.335+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:16:36.357+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:16:36.357+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:16:36.377+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.078 seconds
+[2023-10-03T12:17:06.502+0000] {processor.py:156} INFO - Started process (PID=3031) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:17:06.503+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:17:06.504+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:17:06.504+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:17:06.511+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:17:06.533+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:17:06.533+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:17:06.555+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:17:06.555+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:17:06.575+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.075 seconds
+[2023-10-03T12:17:28.665+0000] {processor.py:156} INFO - Started process (PID=3033) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:17:28.665+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:17:28.667+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:17:28.667+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:17:28.676+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:17:28.675+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 92, in <module>
+    call_http_status >> call_space_devs_api >> check_results >> create
+NameError: name 'create' is not defined
+[2023-10-03T12:17:28.677+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:17:28.697+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.034 seconds
+[2023-10-03T12:17:29.698+0000] {processor.py:156} INFO - Started process (PID=3034) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:17:29.699+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:17:29.701+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:17:29.701+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:17:29.718+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:17:29.807+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:17:29.806+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:17:29.841+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:17:29.841+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:17:29.888+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.192 seconds
+[2023-10-03T12:17:55.842+0000] {processor.py:156} INFO - Started process (PID=3044) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:17:55.842+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:17:55.843+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:17:55.843+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:17:55.852+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:17:55.862+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:17:55.862+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:17:55.885+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:17:55.885+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:17:55.911+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.072 seconds
+[2023-10-03T12:18:02.962+0000] {processor.py:156} INFO - Started process (PID=3052) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:18:02.963+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:18:02.965+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:18:02.965+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:18:02.968+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:18:02.967+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 90
+    dataset_id="dataset_name")
+             ^
+SyntaxError: invalid syntax
+[2023-10-03T12:18:02.968+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:18:02.993+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.034 seconds
+[2023-10-03T12:18:09.992+0000] {processor.py:156} INFO - Started process (PID=3053) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:18:09.992+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:18:09.994+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:18:09.993+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:18:09.996+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:18:09.995+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 90
+    dataset_id="dataset_name")
+             ^
+SyntaxError: invalid syntax
+[2023-10-03T12:18:09.996+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:18:10.016+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.026 seconds
+[2023-10-03T12:18:40.148+0000] {processor.py:156} INFO - Started process (PID=3062) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:18:40.149+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:18:40.151+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:18:40.151+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:18:40.153+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:18:40.152+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 90
+    dataset_id="dataset_name")
+             ^
+SyntaxError: invalid syntax
+[2023-10-03T12:18:40.153+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:18:40.174+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.028 seconds
+[2023-10-03T12:18:48.207+0000] {processor.py:156} INFO - Started process (PID=3063) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:18:48.208+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:18:48.210+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:18:48.210+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:18:48.228+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:18:48.219+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 90, in <module>
+    dataset_id="dataset_name")
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 1828, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 789, in __init__
+    f"Invalid arguments were passed to {self.__class__.__name__} (task_id: {task_id}). "
+airflow.exceptions.AirflowException: Invalid arguments were passed to BigQueryCreateEmptyDatasetOperator (task_id: create_dataset). Invalid arguments were:
+**kwargs: {'connection_id': 'google_cloud_conn'}
+[2023-10-03T12:18:48.229+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:18:48.256+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.052 seconds
+[2023-10-03T12:19:18.426+0000] {processor.py:156} INFO - Started process (PID=3072) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:19:18.428+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:19:18.434+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:19:18.434+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:19:18.446+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:19:18.445+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 90, in <module>
+    dataset_id="dataset_name")
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 1828, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 789, in __init__
+    f"Invalid arguments were passed to {self.__class__.__name__} (task_id: {task_id}). "
+airflow.exceptions.AirflowException: Invalid arguments were passed to BigQueryCreateEmptyDatasetOperator (task_id: create_dataset). Invalid arguments were:
+**kwargs: {'connection_id': 'google_cloud_conn'}
+[2023-10-03T12:19:18.461+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:19:18.505+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.081 seconds
+[2023-10-03T12:19:48.669+0000] {processor.py:156} INFO - Started process (PID=3081) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:19:48.670+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:19:48.670+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:19:48.670+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:19:48.679+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:19:48.678+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 90, in <module>
+    dataset_id="dataset_name")
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 1828, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 789, in __init__
+    f"Invalid arguments were passed to {self.__class__.__name__} (task_id: {task_id}). "
+airflow.exceptions.AirflowException: Invalid arguments were passed to BigQueryCreateEmptyDatasetOperator (task_id: create_dataset). Invalid arguments were:
+**kwargs: {'connection_id': 'google_cloud_conn'}
+[2023-10-03T12:19:48.680+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:19:48.706+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.040 seconds
+[2023-10-03T12:20:15.841+0000] {processor.py:156} INFO - Started process (PID=3090) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:20:15.842+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:20:15.843+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:20:15.842+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:20:15.853+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:20:15.851+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 90, in <module>
+    dataset_id="dataset_name")
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 1828, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 789, in __init__
+    f"Invalid arguments were passed to {self.__class__.__name__} (task_id: {task_id}). "
+airflow.exceptions.AirflowException: Invalid arguments were passed to BigQueryCreateEmptyDatasetOperator (task_id: create_dataset). Invalid arguments were:
+**kwargs: {'gcp_connection_id': 'google_cloud_conn'}
+[2023-10-03T12:20:15.853+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:20:15.878+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.040 seconds
+[2023-10-03T12:20:46.028+0000] {processor.py:156} INFO - Started process (PID=3100) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:20:46.028+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:20:46.029+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:20:46.029+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:20:46.039+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:20:46.037+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 90, in <module>
+    dataset_id="dataset_name")
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 1828, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 789, in __init__
+    f"Invalid arguments were passed to {self.__class__.__name__} (task_id: {task_id}). "
+airflow.exceptions.AirflowException: Invalid arguments were passed to BigQueryCreateEmptyDatasetOperator (task_id: create_dataset). Invalid arguments were:
+**kwargs: {'gcp_connection_id': 'google_cloud_conn'}
+[2023-10-03T12:20:46.040+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:20:46.080+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.056 seconds
+[2023-10-03T12:20:50.128+0000] {processor.py:156} INFO - Started process (PID=3102) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:20:50.129+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:20:50.130+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:20:50.130+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:20:50.141+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:20:50.197+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:20:50.197+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:20:50.219+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:20:50.219+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:20:50.249+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.123 seconds
+[2023-10-03T12:20:51.178+0000] {processor.py:156} INFO - Started process (PID=3103) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:20:51.179+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:20:51.179+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:20:51.179+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:20:51.188+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:20:51.198+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:20:51.198+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:20:51.220+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:20:51.220+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:20:51.243+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.067 seconds
+[2023-10-03T12:21:21.355+0000] {processor.py:156} INFO - Started process (PID=3113) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:21:21.355+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:21:21.356+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:21:21.356+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:21:21.364+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:21:21.392+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:21:21.391+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:21:21.416+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:21:21.415+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:21:21.439+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.087 seconds
+[2023-10-03T12:21:51.580+0000] {processor.py:156} INFO - Started process (PID=3123) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:21:51.581+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:21:51.582+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:21:51.582+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:21:51.593+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:21:51.632+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:21:51.632+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:21:51.659+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:21:51.659+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:21:51.681+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.103 seconds
+[2023-10-03T12:22:21.814+0000] {processor.py:156} INFO - Started process (PID=3132) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:22:21.821+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:22:21.831+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:22:21.830+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:22:21.854+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:22:21.914+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:22:21.913+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:22:21.949+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:22:21.949+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:22:21.975+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.164 seconds
+[2023-10-03T12:22:52.097+0000] {processor.py:156} INFO - Started process (PID=3141) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:22:52.098+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:22:52.099+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:22:52.099+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:22:52.111+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:22:52.140+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:22:52.140+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:22:52.169+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:22:52.169+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:22:52.195+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.102 seconds
+[2023-10-03T12:23:22.301+0000] {processor.py:156} INFO - Started process (PID=3150) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:23:22.301+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:23:22.302+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:23:22.302+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:23:22.309+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:23:22.330+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:23:22.330+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:23:22.352+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:23:22.352+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:23:22.372+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.073 seconds
+[2023-10-03T12:23:52.489+0000] {processor.py:156} INFO - Started process (PID=3159) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:23:52.489+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:23:52.490+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:23:52.490+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:23:52.503+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:23:52.532+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:23:52.531+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:23:52.560+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:23:52.560+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:23:52.582+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.098 seconds
+[2023-10-03T12:24:22.706+0000] {processor.py:156} INFO - Started process (PID=3168) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:24:22.707+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:24:22.708+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:24:22.707+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:24:22.716+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:24:22.738+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:24:22.738+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:24:22.760+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:24:22.760+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:24:22.781+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.077 seconds
+[2023-10-03T12:24:52.928+0000] {processor.py:156} INFO - Started process (PID=3178) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:24:52.928+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:24:52.929+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:24:52.929+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:24:52.940+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:24:52.974+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:24:52.973+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:24:53.029+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:24:53.029+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:24:53.069+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.145 seconds
+[2023-10-03T12:25:23.196+0000] {processor.py:156} INFO - Started process (PID=3187) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:25:23.197+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:25:23.197+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:25:23.197+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:25:23.206+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:25:23.229+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:25:23.228+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:25:23.250+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:25:23.250+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:25:23.272+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.078 seconds
+[2023-10-03T12:25:53.383+0000] {processor.py:156} INFO - Started process (PID=3196) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:25:53.384+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:25:53.384+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:25:53.384+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:25:53.392+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:25:53.415+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:25:53.415+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:25:53.438+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:25:53.437+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:25:53.489+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.108 seconds
+[2023-10-03T12:26:23.601+0000] {processor.py:156} INFO - Started process (PID=3205) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:26:23.602+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:26:23.602+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:26:23.602+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:26:23.610+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:26:23.640+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:26:23.640+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:26:23.663+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:26:23.663+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:26:23.683+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.084 seconds
+[2023-10-03T12:26:30.629+0000] {processor.py:156} INFO - Started process (PID=3206) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:26:30.630+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:26:30.630+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:26:30.630+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:26:30.639+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:26:30.704+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:26:30.704+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:26:30.750+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:26:30.750+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:26:30.808+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.181 seconds
+[2023-10-03T12:27:00.937+0000] {processor.py:156} INFO - Started process (PID=3215) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:27:00.938+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:27:00.938+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:27:00.938+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:27:00.946+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:27:00.967+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:27:00.967+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:27:00.994+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:27:00.994+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:27:01.016+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.081 seconds
+[2023-10-03T12:27:31.152+0000] {processor.py:156} INFO - Started process (PID=3224) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:27:31.153+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:27:31.153+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:27:31.153+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:27:31.161+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:27:31.182+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:27:31.182+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:27:31.204+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:27:31.204+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:27:31.225+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.075 seconds
+[2023-10-03T12:28:01.363+0000] {processor.py:156} INFO - Started process (PID=3233) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:28:01.366+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:28:01.367+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:28:01.367+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:28:01.460+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:28:01.588+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:28:01.587+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:28:01.648+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:28:01.648+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:28:01.685+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.325 seconds
+[2023-10-03T12:29:26.704+0000] {processor.py:156} INFO - Started process (PID=33) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:29:26.720+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:29:26.721+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:29:26.721+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:29:26.776+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:29:27.011+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:29:27.011+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:29:27.111+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:29:27.111+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:29:27.172+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.472 seconds
+[2023-10-03T12:29:57.339+0000] {processor.py:156} INFO - Started process (PID=41) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:29:57.340+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:29:57.341+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:29:57.341+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:29:57.355+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:29:57.386+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:29:57.385+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:29:57.420+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:29:57.419+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:29:57.451+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.115 seconds
+[2023-10-03T12:30:27.605+0000] {processor.py:156} INFO - Started process (PID=50) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:30:27.605+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:30:27.607+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:30:27.607+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:30:27.625+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:30:27.662+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:30:27.661+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:30:27.698+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:30:27.698+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:30:27.723+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.121 seconds
+[2023-10-03T12:30:57.979+0000] {processor.py:156} INFO - Started process (PID=59) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:30:57.989+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:30:57.994+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:30:57.994+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:30:58.154+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:30:59.077+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:30:59.076+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:30:59.138+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:30:59.138+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:30:59.182+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 1.207 seconds
+[2023-10-03T12:32:13.079+0000] {processor.py:156} INFO - Started process (PID=32) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:32:13.080+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:32:13.084+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:32:13.084+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:32:13.143+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:32:13.347+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:32:13.346+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:32:13.519+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:32:13.514+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:32:13.584+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.519 seconds
+[2023-10-03T12:32:43.771+0000] {processor.py:156} INFO - Started process (PID=41) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:32:43.771+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:32:43.773+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:32:43.773+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:32:43.783+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:32:43.926+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:32:43.925+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:32:43.954+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:32:43.953+0000] {dag.py:2747} INFO - Creating ORM DAG for capstone_project
+[2023-10-03T12:32:43.978+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:32:43.978+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-09-23T00:00:00+00:00, run_after=2023-09-24T00:00:00+00:00
+[2023-10-03T12:32:44.004+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.236 seconds
+[2023-10-03T12:33:19.170+0000] {processor.py:156} INFO - Started process (PID=51) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:33:19.183+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:33:19.185+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:33:19.185+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:33:19.680+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:33:26.134+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:33:26.133+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:33:26.345+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:33:26.345+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:33:26.418+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 7.251 seconds
+[2023-10-03T12:37:29.460+0000] {processor.py:156} INFO - Started process (PID=33) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:37:29.467+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:37:29.471+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:37:29.471+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:37:29.512+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:37:30.033+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:37:30.032+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:37:30.121+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:37:30.121+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:37:30.218+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.763 seconds
+[2023-10-03T12:37:51.387+0000] {processor.py:156} INFO - Started process (PID=42) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:37:51.388+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:37:51.395+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:37:51.395+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:37:51.429+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:37:51.448+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:37:51.447+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:37:51.515+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:37:51.515+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:37:51.658+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.273 seconds
+[2023-10-03T12:38:21.706+0000] {processor.py:156} INFO - Started process (PID=51) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:38:21.707+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:38:21.709+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:38:21.709+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:38:21.721+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:38:21.769+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:38:21.768+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:38:21.801+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:38:21.801+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:38:21.825+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.123 seconds
+[2023-10-03T12:38:40.917+0000] {processor.py:156} INFO - Started process (PID=61) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:38:40.917+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:38:40.918+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:38:40.918+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:38:40.927+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:38:40.949+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:38:40.948+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:38:40.970+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:38:40.970+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:38:40.992+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.078 seconds
+[2023-10-03T12:38:43.938+0000] {processor.py:156} INFO - Started process (PID=62) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:38:43.938+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:38:43.939+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:38:43.939+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:38:43.948+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:38:43.973+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:38:43.973+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:38:43.996+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:38:43.996+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:38:44.020+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.084 seconds
+[2023-10-03T12:38:47.031+0000] {processor.py:156} INFO - Started process (PID=63) to work on /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:38:47.032+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2023-10-03T12:38:47.033+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:38:47.033+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:38:47.042+0000] {processor.py:809} INFO - DAG(s) dict_keys(['capstone_project']) retrieved from /opt/airflow/dags/capstone_project.py
+[2023-10-03T12:38:47.063+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:38:47.063+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-10-03T12:38:47.087+0000] {logging_mixin.py:149} INFO - [2023-10-03T12:38:47.087+0000] {dag.py:3490} INFO - Setting next_dagrun for capstone_project to 2023-10-03T00:00:00+00:00, run_after=2023-10-04T00:00:00+00:00
+[2023-10-03T12:38:47.108+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.079 seconds

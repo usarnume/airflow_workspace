@@ -22,3 +22,27 @@ TypeError: the JSON object must be str, bytes or bytearray, not NoneType
 [2023-10-03T10:03:38.001+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 137 for task preprocess_data (the JSON object must be str, bytes or bytearray, not NoneType; 1657)
 [2023-10-03T10:03:38.102+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
 [2023-10-03T10:03:38.265+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-10-03T12:33:28.335+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: capstone_project.preprocess_data scheduled__2023-09-29T00:00:00+00:00 [queued]>
+[2023-10-03T12:33:28.444+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: capstone_project.preprocess_data scheduled__2023-09-29T00:00:00+00:00 [queued]>
+[2023-10-03T12:33:28.445+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-10-03T12:33:29.174+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): preprocess_data> on 2023-09-29 00:00:00+00:00
+[2023-10-03T12:33:29.446+0000] {standard_task_runner.py:57} INFO - Started process 107 to run task
+[2023-10-03T12:33:29.482+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'capstone_project', 'preprocess_data', 'scheduled__2023-09-29T00:00:00+00:00', '--job-id', '227', '--raw', '--subdir', 'DAGS_FOLDER/capstone_project.py', '--cfg-path', '/tmp/tmpftku4yt2']
+[2023-10-03T12:33:29.561+0000] {standard_task_runner.py:85} INFO - Job 227: Subtask preprocess_data
+[2023-10-03T12:33:30.536+0000] {task_command.py:410} INFO - Running <TaskInstance: capstone_project.preprocess_data scheduled__2023-09-29T00:00:00+00:00 [running]> on host 9a30478b5169
+[2023-10-03T12:33:32.730+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='capstone_project' AIRFLOW_CTX_TASK_ID='preprocess_data' AIRFLOW_CTX_EXECUTION_DATE='2023-09-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-29T00:00:00+00:00'
+[2023-10-03T12:33:32.931+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/capstone_project.py", line 75, in _preprocess_data
+    response_dict = json.loads(response)
+  File "/usr/local/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+[2023-10-03T12:33:33.039+0000] {taskinstance.py:1373} INFO - Marking task as FAILED. dag_id=capstone_project, task_id=preprocess_data, execution_date=20230929T000000, start_date=20231003T123328, end_date=20231003T123333
+[2023-10-03T12:33:33.294+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 227 for task preprocess_data (the JSON object must be str, bytes or bytearray, not NoneType; 107)
+[2023-10-03T12:33:33.560+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-10-03T12:33:33.720+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

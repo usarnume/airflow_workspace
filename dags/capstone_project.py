@@ -9,6 +9,10 @@ from airflow.operators.python import ShortCircuitOperator
 import json
 from airflow.exceptions import AirflowSkipException
 import pandas as pd
+from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateEmptyDatasetOperator
+
+
+
 
 # https://airflow.apache.org/docs/apache-airflow/stable/templates-ref.html
 
@@ -80,8 +84,13 @@ schedule="@daily",
     )
 
 
+    # Step 4: create empty dataset on Google Cloud Storage
+    create_empty_dataset = BigQueryCreateEmptyDatasetOperator(task_id="create_dataset", 
+                                                              gcp_conn_id="google_cloud_conn",
+                                                              dataset_id="maurits_dataset")
+
     # definition of the dag
-    call_http_status >> call_space_devs_api >> check_results
+    call_http_status >> call_space_devs_api >> check_results >> create_empty_dataset
 
 
 
