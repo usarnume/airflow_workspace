@@ -13,8 +13,17 @@ from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateEmpt
 from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesystemToGCSOperator
 from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
+from airflow.hooks.postgres_hook import PostgresHook
 
 # https://airflow.apache.org/docs/apache-airflow/stable/templates-ref.html
+
+
+# we have 3 connections:
+# google_cloud_conn	
+# postgres
+# thespacedevs_dev
+
+
 
 with DAG(
 dag_id="capstone_project",
@@ -37,8 +46,7 @@ schedule="@daily",
         method="GET",
         data={"net__gt": "{{ ds }}T00:00:00Z", "net__lt": "{{ next_ds }}T00:00:00Z"},
         log_response=True,
-        endpoint="", 
-        dag=dag)
+        endpoint="")
 
 
     # Part 3
@@ -49,7 +57,6 @@ schedule="@daily",
 
         response = task_instance.xcom_pull(task_ids="call_space_devs_api", # the output in XCom is coming from this task
                                            key="return_value")
-        print(response, type(response))
         response_dict = json.loads(response)
 
         if response_dict["count"] == 0:
@@ -58,16 +65,15 @@ schedule="@daily",
 
     check_results = PythonOperator(task_id="check_results",
                                          python_callable=_check_if_data_in_request,
-                                         provide_context=True,
-                                         dag=dag)
+                                         provide_context=True)
 
     def _extract_relevant_data(x: dict):
         return {"id": x.get("id"),
                 "name": x.get("name"),
-                "abbrev": x.get("status.abbrev"),
+                "status_abbrev": x.get("status.abbrev"),
                 "country_code": x.get("pad").get("location").get("country_code"),
-                "name": x.get("launch_service_provider").get("name"),
-                "type": x.get("launch_service_provider").get("type")}
+                "service_provider_name": x.get("launch_service_provider").get("name"),
+                "service_provider_type": x.get("launch_service_provider").get("type")}
 
 
     def _preprocess_data(task_instance, **context):
@@ -79,9 +85,7 @@ schedule="@daily",
 
     preprocess_data = PythonOperator(
         task_id="preprocess_data",
-        python_callable=_preprocess_data,
-        dag=dag
-    )
+        python_callable=_preprocess_data)
 
 
     # Step 4: create empty dataset on Google Cloud Storage
@@ -110,20 +114,41 @@ schedule="@daily",
     )
 
     # Step 7: create postgres table
-    # create_postgres_table = PostgresOperator(
-    #     task_id="create_postgres_table",
-    #     postgres_conn_id="postgres",
-    #     sql="""
-    #     CREATE TABLE IF NOT EXISTS rocket_launches (
-    #         id VARCHAR,
-    #         name VARCHAR,
-    #         status VARCHAR,
-    #         country_code VARCHAR,
-    #         service_provider_name: VARCHAR,
-    #         service_provider_type: VARCHAR
-    #         );
-    #     """
-    # )
+    create_postgres_table = PostgresOperator(
+        task_id="create_postgres_table",
+        postgres_conn_id="postgres",
+        sql="""
+        CREATE TABLE IF NOT EXISTS rocket_launches (
+            id VARCHAR,
+            name VARCHAR,
+            status VARCHAR,
+            country_code VARCHAR,
+            service_provider_name VARCHAR,
+            service_provider_type VARCHAR
+            );
+        """
+    )
+
+
+    # Step 8: 
+    # Python operator
+    # Hook
+    # Copy expert
+    # CSV
+
+    def _read_parquet_and_write_to_postgres(task_instance, **context):
+        # Read data from parquet
+        df_launches = pd.read_parquet(f"/tmp/{context['ds']}.parquet")
+        df_launches.to_csv(f"/tmp/{context['ds']}.csv", header=False, index=False)
+
+        hook = PostgresHook(postgres_conn_id="postgres")
+        hook.copy_expert(f"COPY rocket_launches (id, name, status, country_code, service_provider_name, service_provider_type) FROM STDIN WITH CSV DELIMITER AS ','", f"/tmp/{context['ds']}.csv")
+
+    write_parquet_to_postgres = PythonOperator(
+        task_id="write_parquet_to_postgres",
+        python_callable=_read_parquet_and_write_to_postgres
+    )
+
 
     # definition of the dag
     (
@@ -133,8 +158,9 @@ schedule="@daily",
     preprocess_data >>
     create_empty_dataset >> 
     upload_file >> 
-    gcs_to_big_query_operator 
-    #create_postgres_table
+    gcs_to_big_query_operator >>
+    create_postgres_table >>
+    write_parquet_to_postgres
     )
 
 

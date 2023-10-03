@@ -1,0 +1,30 @@
+[2023-10-03T14:35:52.623+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: capstone_project.write_parquet_to_postgres scheduled__2023-09-27T00:00:00+00:00 [queued]>
+[2023-10-03T14:35:52.632+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: capstone_project.write_parquet_to_postgres scheduled__2023-09-27T00:00:00+00:00 [queued]>
+[2023-10-03T14:35:52.632+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-10-03T14:35:52.650+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): write_parquet_to_postgres> on 2023-09-27 00:00:00+00:00
+[2023-10-03T14:35:52.657+0000] {standard_task_runner.py:57} INFO - Started process 2070 to run task
+[2023-10-03T14:35:52.660+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'capstone_project', 'write_parquet_to_postgres', 'scheduled__2023-09-27T00:00:00+00:00', '--job-id', '370', '--raw', '--subdir', 'DAGS_FOLDER/capstone_project.py', '--cfg-path', '/tmp/tmpfdu7thcw']
+[2023-10-03T14:35:52.661+0000] {standard_task_runner.py:85} INFO - Job 370: Subtask write_parquet_to_postgres
+[2023-10-03T14:35:52.705+0000] {task_command.py:410} INFO - Running <TaskInstance: capstone_project.write_parquet_to_postgres scheduled__2023-09-27T00:00:00+00:00 [running]> on host 9a30478b5169
+[2023-10-03T14:35:52.786+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='capstone_project' AIRFLOW_CTX_TASK_ID='write_parquet_to_postgres' AIRFLOW_CTX_EXECUTION_DATE='2023-09-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-27T00:00:00+00:00'
+[2023-10-03T14:35:53.445+0000] {postgres.py:158} INFO - Running copy expert: COPY rocket_launches (id, name, status, country_code, service_provider_name, service_provider_type) FROM STDIN WITH CSV DELIMITER AS ',', filename: /tmp/2023-09-27.csv
+[2023-10-03T14:35:53.453+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2023-10-03T14:35:53.458+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/capstone_project.py", line 137, in _read_parquet_and_write_to_postgres
+    hook.copy_expert(f"COPY rocket_launches (id, name, status, country_code, service_provider_name, service_provider_type) FROM STDIN WITH CSV DELIMITER AS ','", f"/tmp/{context['ds']}.csv")
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 166, in copy_expert
+    cur.copy_expert(sql, file)
+psycopg2.errors.BadCopyFileFormat: missing data for column "service_provider_type"
+CONTEXT:  COPY rocket_launches, line 1: "44709d2b-78a2-4a58-a7ad-a964545e63f0,Islamic Revolutionary Guard Corps Aerospace Force,,IRN,Governme..."
+
+[2023-10-03T14:35:53.471+0000] {taskinstance.py:1373} INFO - Marking task as FAILED. dag_id=capstone_project, task_id=write_parquet_to_postgres, execution_date=20230927T000000, start_date=20231003T143552, end_date=20231003T143553
+[2023-10-03T14:35:53.489+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 370 for task write_parquet_to_postgres (missing data for column "service_provider_type"
+CONTEXT:  COPY rocket_launches, line 1: "44709d2b-78a2-4a58-a7ad-a964545e63f0,Islamic Revolutionary Guard Corps Aerospace Force,,IRN,Governme..."
+; 2070)
+[2023-10-03T14:35:53.514+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-10-03T14:35:53.530+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
