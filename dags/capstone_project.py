@@ -19,8 +19,11 @@ description='Capstone Project',
 schedule="@daily",
 ) as dag:
 
+    # Part 1
     call_http_status = HttpSensor(task_id="call_http_status_space_devs_api", http_conn_id="thespacedevs_dev", endpoint="", dag=dag)
     
+
+    # Part 2
     # the simple http operator automtically passes output to XCom (can check return there)
     # https://lldev.thespacedevs.com/2.2.0/launch/ --> click on "filter"
     # you can check the results in the XCom (webinterface)
@@ -33,9 +36,14 @@ schedule="@daily",
         endpoint="", 
         dag=dag)
 
+
+    # Part 3
+    # Two parts:
+    # a) check if there is any data
+    # b) pre-process the data
     def _check_if_data_in_request(task_instance, **context):
 
-        response = task_instance.xcom_pull(task_ids="call_space_devs_api",
+        response = task_instance.xcom_pull(task_ids="call_space_devs_api", # the output in XCom is coming from this task
                                            key="return_value")
         print(response, type(response))
         response_dict = json.loads(response)
@@ -49,7 +57,6 @@ schedule="@daily",
                                          provide_context=True,
                                          dag=dag)
 
-
     def _extract_relevant_data(x: dict):
         return {"id": x.get("id"),
                 "name": x.get("name"),
@@ -60,11 +67,11 @@ schedule="@daily",
 
 
     def _preprocess_data(task_instance, **context):
-        response = task_instance.xcom_pull(task_ids="call_space_devs_api")
+        response = task_instance.xcom_pull(task_ids="call_space_devs_api") # the output in XCom is coming from this task
         response_dict = json.loads(response)
         response_results = response_dict["results"]
         df_results = pd.DataFrame([_extract_relevant_data(i) for i in response_results])
-        df_results.to_parquet(path=f"/tmp/{context['ds']}.parquet")
+        df_results.to_parquet(path=f"/tmp/{context['ds']}.parquet") # note the slash at the beginning + if re-runs it overwrites
 
     preprocess_data = PythonOperator(
         task_id="preprocess_data",
@@ -73,6 +80,7 @@ schedule="@daily",
     )
 
 
+    # definition of the dag
     call_http_status >> call_space_devs_api >> check_results
 
 
